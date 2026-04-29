@@ -50,6 +50,8 @@ simulen una navegación interna (Inicio, Productos, Contacto, etc.).
 
 El proyecto debe estar subido a un hosting gratuito (Netlify o GitHub Pages), 
 con una URL funcional para visualizar el sitio.
+
+https://github.com/rcdelvalle/pre_entrega_de_proyecto_carlos.git
 -->
 
 <html>
@@ -61,21 +63,40 @@ con una URL funcional para visualizar el sitio.
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
+
     <body>
-        <header>
+
+        <!-- Encabezado -->
+        <header class="encabezado">
+            <img src="../img/logo.png" alt="Logo Compu-Soft" width="50" height="50" >
+            <h1>Compu-Soft</h1>
 
         </header>
 
-        <nav>
-
+        <!-- Menu -->
+        <nav class="menu">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#computadoras">Computadoras</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
         </nav>
 
         <main>
+            <section id="inicio">
+                <video controls poster="../img/notebook.png" width="600" height="400">
+                    <source src="../videos/presentacion.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproduccion de video.
+                </video>
+            </section>
 
         </main>
 
         <footer>
-            
+
         </footer>
         
     </body>
