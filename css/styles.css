@@ -104,6 +104,8 @@ section h2, p {
     color: #ffffff
 }
 
+
+
 /* SECCIÓN COMPUSOFT */
 
 .compusoft-section {
@@ -183,10 +185,9 @@ section h2, p {
 .resenias-container {
     max-width: 1200px;
     margin: auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .resenia-card {
